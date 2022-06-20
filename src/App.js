@@ -2,6 +2,7 @@ import React from 'react';
 
 function handleClick(e) {
   e.stopPropagation();
+  e.preventDefault();
   console.log('CLIC', e);
 }
 
